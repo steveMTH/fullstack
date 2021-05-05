@@ -32,16 +32,16 @@ span {
 }
 
 #chicken span{
-    background-color: rgb(189, 78, 78);
+    background-color: #D87093;
     color: #000;
 }
 
 #beef span{
-    background-color: rgb(121, 8, 8);
-    color: rgb(253, 253, 253);
+    background-color: #DC143C;
+    color: #000;
 }
 #sushi span{
-    background-color: rgb(220, 233, 35);
+    background-color: #EEEE00;
     color: #000;
 }
 
