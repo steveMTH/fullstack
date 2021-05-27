@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    
+}
+div{
+    display: block;
+}
+
+
+@media (min-width: 1400px){ 
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 100%;
+        padding: 0;
+    } 
+    
+}
+
+
+/* navbar */
+.container{
+    max-width: 100%;
+}
+
+.nav{
+    background-color: #414d52;
+    align-items: center;
+    border-bottom: 2.5px solid #818181;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+}
+
+.nav-link, .dropdown-toggle{
+    color: black;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.nav-link:hover, .dropdown-toggle:hover{
+    color: #ffffff;
+}
+
+/* navbar */
+
+/* rooms */
+.background{
+    position: absolute;
+    z-index: -1;
+    max-width: 1440px;
+    max-height: 750px;
+}
+
+.main{
+    background-color: whitesmoke;
+    margin-top: 70px;
+}
+
+.content{
+    margin-left:30px;
+}
+
+.col-xl-3{
+    min-width: 1360px;
+}
+
+.room{
+    margin-top: 10px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+.room-situation{
+    position: absolute;
+    bottom: 0px;
+    width: 340px;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    opacity: .8;
+}
+
+/* rooms */
+
+
+/* form */
+fieldset{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 20px;
+    width: 900px;
+    margin: 70px auto;
+}
+
+legend{
+    color: brown;
+}
+
+fieldset > div{
+    margin-top: 20px;
+}
+
+legend{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px;
+}      
+
+label{
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 1.2em;
+    font: bolder;
+    white-space: nowrap;
+}
+
+.col-form-label{
+    display: inline-flex;
+}
+
+/* form */
